@@ -1,1 +1,3 @@
-# Test modules for accuracy and performance testing
+"""
+Test framework for high-performance kernels
+"""

@@ -61,7 +61,25 @@ results/
 *.cubin
 *.fatbin
 *.ptx
+kernels_cuda*.so
 
 # Temporary files
 *.tmp
 *.temp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Build artifacts
+*.o
+*.obj
+*.dylib
+*.dll

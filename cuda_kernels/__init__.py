@@ -1,1 +1,0 @@
-# CUDA Kernel implementations
