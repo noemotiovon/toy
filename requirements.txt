@@ -1,4 +1,4 @@
-torch>=2.0.0
+torch>=2.5.1
 triton>=2.0.0
 numpy==1.26.4
 matplotlib>=3.5.0
@@ -8,3 +8,4 @@ tqdm>=4.62.0
 pytest>=7.0.0
 pybind11>=2.10.0
 scipy>=1.9.0
+tilelang>=0.16

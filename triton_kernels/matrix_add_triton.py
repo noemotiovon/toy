@@ -61,3 +61,12 @@ def matrix_add_forward(a, b):
     )
     
     return c
+
+# === 测试 ===
+if __name__ == "__main__":
+    M, N = 128, 128
+    a = np.random.rand(M, N).astype("float32")
+    b = np.random.rand(M, N).astype("float32")
+
+    c = matrix_add_forward(a, b)
+    print("Result match:", np.allclose(c, a + b))
